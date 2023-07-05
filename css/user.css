@@ -1,0 +1,23 @@
+.user {
+    display: flex;
+    align-items: center;
+    gap: .5rem;
+    /* flex-direction: column; */
+}
+.user-name{
+    font: var(--body-16regular);
+}
+.user img{
+    border-radius: 50%;
+}
+
+.user .user-avatar{
+    border: 1px solid green;
+}
+.user.status{
+    font: var(--caption-12regular);
+    color: var(--gray);
+}
+.user p span{
+    display: block;
+}

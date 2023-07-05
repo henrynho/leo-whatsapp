@@ -1,0 +1,13 @@
+.input {
+    inline-size: 100%;
+    flex: 1;
+    background: var(--white);
+    border-radius: 3.125rem;
+    border: none;
+    padding-inline-start: 1.5rem;
+    padding-inline-end: 1.5rem;
+    padding-block-start: .875rem;
+    padding-block-end: .875rem;
+    font: var(--body16regular);
+    color: var(--black);
+}

@@ -1,0 +1,9 @@
+.button-icon{
+    border: none;
+    cursor: pointer;
+    background: transparent;
+}
+.icon-text {
+    display: flex;
+    gap: 1rem;
+}

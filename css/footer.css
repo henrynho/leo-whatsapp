@@ -1,0 +1,29 @@
+.footer {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    block-size: var(--headerSize);
+    background: var(--gray40);
+    padding-inline: 1rem;
+    padding-block: 1rem;
+    position: relative;
+    box-shadow: inset 0 1px 2px #66666716;
+}
+.actions-send {
+    flex-grow: 1;
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.footer .button-icon.is-send {
+    display: none;
+}
+
+.actions-send:focus-within .button-icon.is-send {
+    display: block;
+}
+
+.actions-send:focus-within .button-icon:last-of-type {
+    display: none;
+}
